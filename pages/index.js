@@ -1,5 +1,5 @@
-import Head from 'next/head'
-
+import Head from "next/head"
+import Avatar from "../components/Avatar";
 
 export default function Home() {
   return (
@@ -14,18 +14,20 @@ export default function Home() {
         {/* the left nav items */}
         <div className="flex space-x-4 items-center">
         <p className="link">About</p>
-        <p>Store</p>
+        <p className="link">Store</p>
         </div>
 
         {/* the right nav items */}
         <div className="flex space-x-4 items-center">
-        <p className="text-4xl cursor-pointer">Gmail</p>
-        <p>Images</p>
+        <p className="link">Messages</p>
+        <p className="link">Images</p>
 
         {/* icons */}
 
 
         {/* avatar - profile image*/}
+        <Avatar url="https://media-exp1.licdn.com/dms/image/C4E03AQEmJcu47sMVkw/profile-displayphoto-shrink_200_200/0/1622055185857?e=1642636800&v=beta&t=1_eNcxgfYjvoSpTUKLK7eQE52CXnQZgV8ser99CskXM" />
+
         </div>
       </header>
 
