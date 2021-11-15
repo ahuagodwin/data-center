@@ -4,7 +4,11 @@
 @tailwind utilities;
 
 @layer components {
-    .link {
-        @apply hover:underline cursor-pointer;
-    }
+  .link {
+    @apply hover:underline cursor-pointer;
+  }
+}
+
+.btn {
+  @apply bg-gray-700 py-2 px-4 text-white rounded-md;
 }
